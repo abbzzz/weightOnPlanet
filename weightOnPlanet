@@ -1,0 +1,73 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   double weight;
+   string planet;
+
+    cout << "Please input your weight (in lbs) and planet of choice" << endl;
+
+   cin >> weight;
+   cin >> planet;
+    
+   if (planet == "Mercury") {
+      weight = weight * 0.4155;
+      cout << weight;
+   }
+
+   else if (planet == "Venus") {
+      weight = weight * 0.8975;
+      cout << weight;
+   }
+
+   else if (planet == "Earth") {
+      weight = weight * 1.0;
+      cout << weight;
+   }
+
+   else if (planet == "Moon") {
+      weight = weight * 0.166;
+      cout << weight;
+   }
+
+   else if (planet == "Mars") {
+      weight = weight * 0.3507;
+      cout << weight;
+   }
+
+   else if (planet == "Jupiter") {
+      weight = weight * 2.5374;
+      cout << weight;
+   }
+
+   else if (planet == "Saturn") {
+      weight = weight * 1.0677;
+      cout << weight;
+   }
+
+   else if (planet == "Uranus") {
+      weight = weight * 0.8947;
+      cout << weight;
+   }
+
+   else if (planet == "Neptune") {
+      weight = weight * 1.17794;
+      cout << weight;
+   }
+
+   else if (planet == "Pluto") {
+      weight = weight * 0.0899;
+      cout << weight;
+   }
+
+   else {
+      cout << "Error: Invalid Planet Input" << endl;
+   }
+   
+   cout << endl;
+   cout << "Wow you are such a skinny queen" << endl;
+
+    return 0;
+}
